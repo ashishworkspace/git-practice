@@ -15,10 +15,10 @@ print(user1.calculate_age())
 
 input_salary = input('Enter the Salary: ')
 class Employee(Visitors):
-	def __init__(self, name, birth_year, salary):
+	def __init__(self, name, salary, birth_year=None):
 		super().__init__(name, birth_year)     # I don't want birth_year variable
 		self.salary = salary
 	def print_employee_salary(self):
 		return  f"{self.name} your salary is {self.salary}"
-user2 = Employee(user_name, 2000, input_salary)
+user2 = Employee(user_name, input_salary)
 print(user2.print_employee_salary())
