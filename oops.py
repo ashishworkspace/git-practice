@@ -22,5 +22,3 @@ class Employee(Visitors):
 		return  f"{self.name} your salary is {self.salary}"
 user2 = Employee(user_name, input_salary)
 print(user2.print_employee_salary())
-# end of the program
-####################
