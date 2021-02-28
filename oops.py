@@ -23,3 +23,4 @@ class Employee(Visitors):
 user2 = Employee(user_name, input_salary)
 print(user2.print_employee_salary())
 # end of the program
+####################
