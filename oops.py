@@ -1,4 +1,4 @@
-class  Visitors:
+class  Visitors: # General OOPs concept
 	present_year = 2021
 	def __init__(self, name, birth_year):
 		self.name = name
